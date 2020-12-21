@@ -1,0 +1,40 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.divider-text{
+    position: relative;
+    text-align : center;
+    margin-top : 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span{
+    padding : 7px;
+    font-size: 12px;
+    position: relative;
+    z-index:2;
+
+}
+.divider-text:after{
+    content:"";
+    position: absolute;
+    width : 100%;
+    border-bottom: 1px solid black;
+    top : 55%;
+    left : 0;
+    z-index:1;
+}
+
+.btn-facebook{
+    background-color: hotpink;
+    color : #fff;
+}
+
+.btn-gmail{
+    background-color: red;
+    color: white;
+}

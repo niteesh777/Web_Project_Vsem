@@ -1,0 +1,209 @@
+
+body{
+  background-color: white;
+  color: rgb(30, 31, 24);
+  background-size: 1366px 768px;
+}
+
+/* Header start*/
+#top_header{
+    position: relative;
+    background: linear-gradient(45deg, rgb(223, 204, 101),rgb(214, 224, 155));
+    height: 5em;
+    
+   }
+  /* #top_header::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 215px;
+  background: url(/img/wave.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+*/
+
+
+
+div>a>h1{
+    float: left;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 300;
+    color: rgb(30, 31, 24);
+}
+div>span{
+    font-size:30px;
+    cursor:pointer;
+    float: right;
+    color: rgb(30, 31, 24);
+}
+
+/*Header End*/
+
+
+
+/*Nav bar side*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color:rgb(214, 224, 155);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  /*Nav bar side End*/
+
+  
+/* Buttons design todoself,fself*/
+ #todo_list{
+
+  margin-top:5%;
+  
+  }
+  #todo_list a p
+  {
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+    background: linear-gradient(45deg,rgb(30, 31, 24),rgb(80, 80, 80));
+    color: rgb(214, 224, 155);
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+   padding-top: 20%;
+    text-decoration: none;
+    
+
+
+  }
+
+  #todo_list a p:hover
+  {
+
+     color:  white;
+
+  }
+
+  #fself{
+
+    margin-top:5%;
+
+  }
+  #fself a p
+  {
+
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(223, 204, 101),rgb(214, 224, 155));
+    color:rgb(30, 31, 24);
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+   padding-top: 20%;
+    text-decoration: none;
+
+  }
+  #fself a p:hover
+  {
+
+     color:  white;
+
+  }
+/* Buttons design todoself,fself End*/
+
+  /*Footer*/
+  .footer {
+   
+    border-radius: 4px;
+    margin-top: 200px;
+     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background:linear-gradient(45deg,rgb(30, 31, 24),rgb(80, 80, 80));
+    color: white;
+    text-align: center;
+ }
+ .footer p
+ {
+  font-size:30px;
+  cursor:pointer;
+  color:rgb(214, 224, 155);
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: bold;
+    text-align: center;
+   padding: 2px;
+ }
+
+
+ .fa {
+  
+  padding: 20px;
+  margin: 10px;
+  font-size: 25px;
+  /*width: 2.2em;  
+  text-align: center;
+  border-radius: 25px;
+  background:rgb(30, 31, 24);
+  */
+  color:rgb(214, 224, 155);
+}
+ .fa:hover {
+  opacity: 0.7;
+}
+
+
+ /*Footer End*/
+
+ 
+ /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+  }
+  */

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(214, 224, 155);
+    color: black;
+    font-size: 20px;
+}
+div.header{
+    text-align: center;
+}
+div.list-gen{
+    margin: 0;
+}
+div.list{
+    width: 100%;
+    border: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+div.list-2{
+    width: 100%;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+div.list-contener{
+    margin: 20px;
+}
+input[type='text'].style1{
+    width: 40%;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+button.style1{
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+button.cancel{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(248, 221, 99, 0.829);
+    color:black;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+}
+button{
+    outline: none;
+}
+input{
+    outline: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background: linear-gradient(45deg, rgb(223, 204, 101),rgb(214, 224, 155));
+    color:black;
+  }
+  #date{
+  background-color:  rgb(214, 224, 155);
+  color: black;
+  
+  
+  }
